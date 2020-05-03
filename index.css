@@ -35,7 +35,6 @@
     height: 160px;
     background: rgb(255, 255, 255);
     margin: 50px;
-    b
 }
 
 .service-item img {
@@ -49,3 +48,69 @@
 .card {
     width: 5%;
 }
+
+.constructor ul {
+    text-decoration: none;
+    list-style: none;
+    }
+
+.constructor {
+        margin: 20px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 250px 250px 250px 400px;
+        grid-gap: 30px;
+        background-color: rgb(235, 241, 238);
+      }
+
+
+      
+.const-item-1 {
+        border-radius: 5px;
+        padding: 20px;
+        grid-column: 1 ;
+        grid-row: 1;
+      }
+.const-item-2 {
+        border-radius: 5px;
+        padding: 20px;
+        grid-column: 2;
+        grid-row: 1;
+      }
+.const-item-3 {
+        border-radius: 5px;
+        padding: 20px;
+        grid-column: 3;
+        grid-row: 1;
+      }
+.const-item-4 {
+        border-radius: 5px;
+        padding: 20px;
+        grid-column: 1;
+        grid-row: 2;
+      }
+.const-item-5 {
+        border-radius: 5px;
+        padding: 20px;
+        grid-column: 2;
+        grid-row: 2;
+      }
+.constr-result {
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 150px;
+    grid-column: 4;
+    grid-row: 1 / span 2;
+    justify-content: center;
+  }
+  .constr-result input {
+      box-sizing: content-box;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }  

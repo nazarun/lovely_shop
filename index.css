@@ -1,7 +1,8 @@
-@import url(<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">)
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap)
 
 :root {
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .main{
@@ -15,3 +16,36 @@
     background-color: (bisque);
 }
 
+#navbarDropdownMenuLink {
+    color: rgb(81, 182, 98);
+    font-weight: bold;
+}
+
+.nav {
+    justify-content: center;
+}
+.services {
+    display: flex;
+    justify-content: center;
+}
+
+.service-item {
+    display: block;
+    width: 400px;
+    height: 160px;
+    background: rgb(255, 255, 255);
+    margin: 50px;
+    b
+}
+
+.service-item img {
+    height: 60px;
+}
+
+.shop {
+    display: grid;  
+}
+
+.card {
+    width: 5%;
+}

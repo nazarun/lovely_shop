@@ -10,17 +10,17 @@
 
 //     byName() {
 //     let myarray = getElementById(nav-home);
-     
-//     myarray.sort(function(a,b){ 
+
+//     myarray.sort(function(a,b){
 //         return b - a;
 //     }
 
 //     fromLowtoHight() {
-      
+
 //     }
 
 //     fromHighttoLow() {
-      
+
 //     }
 
 //     onClick(event) {
@@ -33,16 +33,24 @@
 
 //   new Options(options);
 
-document.getElementById("byName").addEventListener("click", myFunction);
+document.getElementById("byName").addEventListener("click", sortCards);
 
 function sortCards() {
-let array = [document.getElementById(first-card).value, document.getElementById(second-card).value, document.getElementById(third-card).value, document.getElementById(forth-card).value, document.getElementById(fifth-card).value, document.getElementById(six-card).value]
-   
+    let array = document.querySelectorAll('.card-deck .card');
+    arr = Array.from(array);
+    console.log('array ',  array);
+    console.log('frist value ', array[0].dataset );
+    console.log('arr ', arr );
+    array[0].style.transform = 'rotate(20deg)';
+
+
+
+
 array.sort(function(a, b)
 {
-    return a - b;	
+    return a - b;
 });
-    
+
 alert(numbers);
 
 }
